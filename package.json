@@ -1,0 +1,28 @@
+{
+  "name": "overwolf-nuxt-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt-ts build",
+    "postbuild": "copy .\\manifest.json .\\dist\\manifest.json",
+    "start": "nuxt-ts start",
+    "export": "nuxt-ts export",
+    "serve": "nuxt-ts serve"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.10",
+    "@nuxtjs/axios": "^5.12.0",
+    "lodash": "^4.17.19",
+    "nuxt": "^2.13.0",
+    "nuxt-property-decorator": "^2.7.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^1.0.3",
+    "@types/lodash": "^4.14.157",
+    "@vue/devtools": "^5.3.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "terser-webpack-plugin": "^3.0.6"
+  }
+}

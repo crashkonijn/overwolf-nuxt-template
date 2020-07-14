@@ -1,0 +1,13 @@
+﻿.card {
+  background-color: white;
+  border-radius: 5px;
+
+  &__header {
+    padding: 1rem;
+    border-bottom: #47494e solid 1px;
+  }
+
+  &__body {
+    padding: 1rem;
+  }
+}
